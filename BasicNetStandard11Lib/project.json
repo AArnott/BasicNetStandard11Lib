@@ -7,6 +7,11 @@
     "Newtonsoft.Json": "8.0.3"
   },
   "frameworks": {
-    "netstandard1.1": { }
+    "netstandard1.1": {
+      "imports": [
+        "dotnet5.2",
+        "portable-net45+wp80+win8+wpa81+dnxcore50"
+      ]
+    }
   }
 }
